@@ -1,0 +1,137 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #D8D9CF;
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header {
+    background-color: #CD104D;
+    padding: 40px;
+    color: white;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 8vh;
+}
+
+h1 {
+    text-align: center;
+
+
+}
+
+.action_bar a {
+    justify-content: flex-start
+}
+
+a {
+    margin-top: 25px;
+    color: white;
+    text-shadow: 1px 2px 5px black;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 18px;
+
+}
+
+a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+.value {
+    border-radius: 50%;
+    padding: 2px;
+    background-color: #FFF7E9;
+    color: black;
+    height: 20px;
+    width: 15px;
+    text-align: center;
+    border: 1px solid #FFF7E9;
+    position: absolute;
+    right: 60px;
+    top: 70px;
+}
+
+.cart {
+    padding: 10px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    margin: 30px;
+    gap: 30px;
+}
+
+.items {
+  
+    width: 250px;
+    height: 215px;
+    border-radius: 35px;
+    border: 2px solid #CD104D;
+    /* padding: 5px 0 0 0; */
+}
+
+.items .image {
+    width: 250px;
+    height: 150px;
+    margin-top: 0;
+    border: 25px;
+    border-top-right-radius: 35px;
+    border-top-left-radius: 35px;
+    background-position: center;
+    background-size: cover;
+
+
+}
+.base{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.items .base {
+
+    background-color: #CD104D;
+    color: aliceblue;
+   
+
+}
+
+
+.list .menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8vw;
+    justify-content: center;
+}
+.cancel{
+    margin-top: 18px;
+    
+}
+.deleteAll{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}

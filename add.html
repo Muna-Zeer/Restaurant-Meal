@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/phosphor-icons"></script>
+    <script src="add.js" defer></script>
+    <script src="script2.js" type="module" defer></script>
+    <title>Document</title>
+</head>
+
+<body onload="loadLists()">
+    <div class="header">
+        <span class="action_bar"><a href="#" onclick="location.href='index.html'">Show Menu</a></span>
+        <h1>eDelicious Restuarant(Your Cart)</h1>
+        <Div class="cart">
+            <span class="value" id="add">0</span>
+            <span class="icon_value"><i class="ph-shopping-cart" style="font-size:36px;"></i></span>
+        </Div>
+    </div>
+    <div class="list" id="list">
+        </div>
+    <div class="deleteAll" id="clear-btn"><button onclick="deleteAll()" style="height: 5vh; width:10vw ; border-radius:50px; margin-left: 20px;">Delete
+            All</button>
+        total:<p class="total"id="total" onclick="total()">  </p>$</div>
+
+</body>
+
+</html>
